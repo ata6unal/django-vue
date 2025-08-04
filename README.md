@@ -98,6 +98,15 @@ docker compose up --build
 ```
 
 
+## ✍️Author
+
+**ATA ÜNAL**
+
+**e-mail: ata6unal@gmail.com**
+
+**github: https://github.com/ata6unal**
+
+
   
 
 
