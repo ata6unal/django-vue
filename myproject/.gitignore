@@ -1,0 +1,16 @@
+# Django
+*.pyc
+__pycache__/
+db.sqlite3
+.env
+
+# Vue
+node_modules/
+dist/
+
+# General
+*.log
+*.swp
+*.swo
+.DS_Store
+.vscode/

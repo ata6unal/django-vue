@@ -1,0 +1,18 @@
+<!-- templates/add_note.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Not Ekle</title>
+</head>
+<body>
+    <h1>Yeni Not Ekle</h1>
+
+    <form method="POST">
+        {% csrf_token %}
+        <textarea name="content" rows="5" cols="40" placeholder="Notunuzu yazın..."></textarea><br>
+        <button type="submit">Kaydet</button>
+    </form>
+
+    <a href="{% url 'logout' %}">Çıkış Yap</a>
+</body>
+</html>
